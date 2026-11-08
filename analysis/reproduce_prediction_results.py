@@ -66,10 +66,13 @@ def main():
         lp=logit(np.clip(p,1e-10,1-1e-10));intercept=brentq(lambda b:np.sum(expit(lp+b)-y),-50,50)
         fit=minimize(lambda b:np.sum(np.logaddexp(0,b[0]+b[1]*lp)-y*(b[0]+b[1]*lp)),[0,1],method='BFGS',tol=1e-10)
         calibration.append({'cohort':cohort,'n':len(y),'mean_probability':p.mean(),'observed_proportion':y.mean(),'expected_observed_ratio':p.mean()/y.mean(),'calibration_in_large':intercept,'logistic_intercept':fit.x[0],'calibration_slope':fit.x[1]})
-        bins=pd.qcut(pd.Series(p),q=10,duplicates='drop')
-        for label in bins.cat.categories:
-            mask=(bins==label).to_numpy()
-            calibration_bins.append({'cohort':cohort,'bin':str(label),'n':int(mask.sum()),'mean_probability':p[mask].mean(),'observed_proportion':y[mask].mean()})
+        bins=pd.qcut(pd.Series(p),q=6,duplicates='drop')
+        for bin_number,label in enumerate(bins.cat.categories):
+            mask=(bins==label).to_numpy();n=int(mask.sum());observed=float(y[mask].mean())
+            z=norm.ppf(.975);denominator=1+z*z/n
+            centre=(observed+z*z/(2*n))/denominator
+            half=z*np.sqrt(observed*(1-observed)/n+z*z/(4*n*n))/denominator
+            calibration_bins.append({'cohort':cohort,'bin':bin_number,'n':n,'mean_probability':p[mask].mean(),'observed_proportion':observed,'wilson_low':centre-half,'wilson_high':centre+half})
         for threshold in np.unique(np.r_[np.arange(.05,.601,.01),THRESHOLD]):
             dca.append({'cohort':cohort,'threshold':threshold,'five_branch_mean':net_benefit(y,p,threshold),'clinical_branch':net_benefit(y,group.clinical_probability.to_numpy(),threshold),'review_all':y.mean()-(1-y.mean())*threshold/(1-threshold),'review_none':0.})
         if cohort in ['external','prospective']:
@@ -84,7 +87,7 @@ def main():
     if not np.allclose(contribution.background_probability+contribution[parts].sum(axis=1),contribution.ohp_probability,atol=1e-12,rtol=0):raise ValueError('Probability decomposition mismatch.')
     for name,rows in [('model_discrimination.csv',discrimination),('primary_classification_metrics.csv',primary),('paired_auc_comparisons.csv',paired),('calibration_point_estimates.csv',calibration),('calibration_bins.csv',calibration_bins),('decision_curve_points.csv',dca),('roc_points.csv',roc),('precision_recall_points.csv',pr)]:pd.DataFrame(rows).to_csv(out/name,index=False,float_format='%.17g')
     contribution.to_csv(out/'patient_branch_contributions.csv',index=False,float_format='%.17g')
-    metadata={'input_cases':len(data),'cohort_sizes':COHORTS,'classification_threshold':THRESHOLD,'fusion_weights':[.2]*5,'output':'Numerical results and curve coordinates; no plots generated.','paired_auc_adjustment':'Holm within the five final-model versus single-branch comparisons in each evaluation cohort.','calibration':'Diagnostic regression estimates only; input probabilities are not changed.','contribution_units':'probability; multiply by 100 for percentage points','contribution_background':'development OOF branch means'}
+    metadata={'input_cases':len(data),'cohort_sizes':COHORTS,'classification_threshold':THRESHOLD,'fusion_weights':[.2]*5,'output':'Numerical results and curve coordinates; no plots generated.','paired_auc_adjustment':'Holm within the five final-model versus single-branch comparisons in each evaluation cohort.','calibration':'Diagnostic regression estimates only; input probabilities are not changed.','calibration_bins':6,'calibration_bin_method':'Within-cohort probability quantiles using pandas.qcut; duplicates are dropped.','calibration_bin_intervals':'Wilson 95% confidence intervals','contribution_units':'probability; multiply by 100 for percentage points','contribution_background':'development OOF branch means'}
     (out/'ANALYSIS_PARAMETERS.json').write_text(json.dumps(metadata,indent=2),encoding='utf8')
     print(json.dumps({'completed':True,'cases':len(data),'output_directory':str(out)},ensure_ascii=False))
 

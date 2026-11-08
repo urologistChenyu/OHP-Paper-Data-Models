@@ -17,6 +17,9 @@
   "output": "Numerical results and curve coordinates; no plots generated.",
   "paired_auc_adjustment": "Holm within the five final-model versus single-branch comparisons in each evaluation cohort.",
   "calibration": "Diagnostic regression estimates only; input probabilities are not changed.",
+  "calibration_bins": 6,
+  "calibration_bin_method": "Within-cohort probability quantiles using pandas.qcut; duplicates are dropped.",
+  "calibration_bin_intervals": "Wilson 95% confidence intervals",
   "contribution_units": "probability; multiply by 100 for percentage points",
   "contribution_background": "development OOF branch means"
 }

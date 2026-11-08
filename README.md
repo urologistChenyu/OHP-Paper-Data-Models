@@ -29,4 +29,4 @@ See LICENSE and THIRD_PARTY_NOTICES.md for software and model attribution.
 - [Complete Windows end-to-end software](https://github.com/urologistChenyu/OHP-End-to-End)
 - [Browser reader-study platform](https://github.com/urologistChenyu/OHP-Reader-Study-Platform)
 
-Version: v1.0.0. Patient-derived source CT, clinical records and private reader responses require institutional approval. Anonymous labels and model probabilities are public in this repository.
+Analysis version: v1.0.1. Trained model assets: v1.0.0. Patient-derived source CT, clinical records and private reader responses require institutional approval. Anonymous labels and model probabilities are public in this repository.

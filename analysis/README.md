@@ -4,7 +4,7 @@
 
 Run reproduce_prediction_results.py with --input ../data/predictions/all_cohorts_predictions.csv and --output-dir NEW_OUTPUT_DIRECTORY. With the modules in their supplied arrangement, the root Reproduce_Prediction_Results.cmd uses the bundled environment in 02_End_to_End.
 
-The CSV columns are documented in ../data/predictions/DATA_DICTIONARY.md. Calculations preserve the published threshold and cohort assignments. A development OOF estimate is distinct from a final-model training estimate.
+The CSV columns are documented in ../data/predictions/DATA_DICTIONARY.md. Calculations preserve the published threshold and cohort assignments. A development OOF estimate is distinct from a final-model training estimate. Calibration coordinates use six within-cohort probability-quantile groups and Wilson 95% intervals, matching Figure 4e.
 
 ## Reader study
 
