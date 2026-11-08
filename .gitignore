@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+outputs/
+work/
+reproduced_results/
+reader_exports/
+*_checkpoint.json
+*.xlsx

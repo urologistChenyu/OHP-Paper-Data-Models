@@ -1,0 +1,625 @@
+{
+  "selection": "modules imported by actual inference plus explicit runtime dependencies; no original editable .pth or OneKey packages",
+  "components": [
+    {
+      "python": "39",
+      "component": "PIL"
+    },
+    {
+      "python": "39",
+      "component": "SimpleITK"
+    },
+    {
+      "python": "39",
+      "component": "SimpleITK-2.4.1.dist-info"
+    },
+    {
+      "python": "39",
+      "component": "dateutil"
+    },
+    {
+      "python": "39",
+      "component": "imageio"
+    },
+    {
+      "python": "39",
+      "component": "imageio-2.37.0.dist-info"
+    },
+    {
+      "python": "39",
+      "component": "joblib"
+    },
+    {
+      "python": "39",
+      "component": "joblib-1.4.2.dist-info"
+    },
+    {
+      "python": "39",
+      "component": "lazy_loader"
+    },
+    {
+      "python": "39",
+      "component": "lazy_loader-0.4.dist-info"
+    },
+    {
+      "python": "39",
+      "component": "networkx"
+    },
+    {
+      "python": "39",
+      "component": "networkx-3.2.1.dist-info"
+    },
+    {
+      "python": "39",
+      "component": "numpy"
+    },
+    {
+      "python": "39",
+      "component": "numpy-1.24.2.dist-info"
+    },
+    {
+      "python": "39",
+      "component": "packaging"
+    },
+    {
+      "python": "39",
+      "component": "pandas"
+    },
+    {
+      "python": "39",
+      "component": "pandas-1.3.5.dist-info"
+    },
+    {
+      "python": "39",
+      "component": "pykwalify"
+    },
+    {
+      "python": "39",
+      "component": "pykwalify-1.8.0.dist-info"
+    },
+    {
+      "python": "39",
+      "component": "pytz"
+    },
+    {
+      "python": "39",
+      "component": "pytz-2025.2.dist-info"
+    },
+    {
+      "python": "39",
+      "component": "pywt"
+    },
+    {
+      "python": "39",
+      "component": "radiomics"
+    },
+    {
+      "python": "39",
+      "component": "ruamel"
+    },
+    {
+      "python": "39",
+      "component": "scipy"
+    },
+    {
+      "python": "39",
+      "component": "scipy-1.13.1.dist-info"
+    },
+    {
+      "python": "39",
+      "component": "scipy.libs"
+    },
+    {
+      "python": "39",
+      "component": "six.py"
+    },
+    {
+      "python": "39",
+      "component": "skimage"
+    },
+    {
+      "python": "39",
+      "component": "sklearn"
+    },
+    {
+      "python": "39",
+      "component": "threadpoolctl.py"
+    },
+    {
+      "python": "39",
+      "component": "tifffile"
+    },
+    {
+      "python": "39",
+      "component": "tifffile-2024.8.30.dist-info"
+    },
+    {
+      "python": "39",
+      "component": "trimesh"
+    },
+    {
+      "python": "39",
+      "component": "trimesh-4.12.2.dist-info"
+    },
+    {
+      "python": "39",
+      "component": "typing_extensions.py"
+    },
+    {
+      "python": "39",
+      "component": "tzdata"
+    },
+    {
+      "python": "39",
+      "component": "tzdata-2025.2.dist-info"
+    },
+    {
+      "python": "39",
+      "component": "yaml"
+    },
+    {
+      "python": "312",
+      "component": "PIL"
+    },
+    {
+      "python": "312",
+      "component": "SimpleITK"
+    },
+    {
+      "python": "312",
+      "component": "_gdcm"
+    },
+    {
+      "python": "312",
+      "component": "_yaml"
+    },
+    {
+      "python": "312",
+      "component": "batchgenerators"
+    },
+    {
+      "python": "312",
+      "component": "batchgenerators-0.25.5.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "certifi"
+    },
+    {
+      "python": "312",
+      "component": "certifi-2026.7.22.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "charset_normalizer"
+    },
+    {
+      "python": "312",
+      "component": "charset_normalizer-3.5.2.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "cloudpickle"
+    },
+    {
+      "python": "312",
+      "component": "cloudpickle-3.1.1.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "colorama"
+    },
+    {
+      "python": "312",
+      "component": "colorama-0.4.6.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "contourpy"
+    },
+    {
+      "python": "312",
+      "component": "cycler"
+    },
+    {
+      "python": "312",
+      "component": "cycler-0.12.1.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "dateutil"
+    },
+    {
+      "python": "312",
+      "component": "filelock"
+    },
+    {
+      "python": "312",
+      "component": "fontTools"
+    },
+    {
+      "python": "312",
+      "component": "fonttools-4.66.1.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "fsspec"
+    },
+    {
+      "python": "312",
+      "component": "future"
+    },
+    {
+      "python": "312",
+      "component": "future-1.0.0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "gdcm.py"
+    },
+    {
+      "python": "312",
+      "component": "idna"
+    },
+    {
+      "python": "312",
+      "component": "idna-3.20.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "imageio"
+    },
+    {
+      "python": "312",
+      "component": "imageio-2.38.1.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "jinja2"
+    },
+    {
+      "python": "312",
+      "component": "joblib"
+    },
+    {
+      "python": "312",
+      "component": "joblib-1.6.0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "kiwisolver"
+    },
+    {
+      "python": "312",
+      "component": "kiwisolver-1.5.1.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "lazy_loader"
+    },
+    {
+      "python": "312",
+      "component": "lazy_loader-0.6.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "linecache2"
+    },
+    {
+      "python": "312",
+      "component": "linecache2-1.0.0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "markdown_it"
+    },
+    {
+      "python": "312",
+      "component": "markupsafe"
+    },
+    {
+      "python": "312",
+      "component": "markupsafe-3.0.4.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "matplotlib"
+    },
+    {
+      "python": "312",
+      "component": "matplotlib-3.11.2.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "mdurl"
+    },
+    {
+      "python": "312",
+      "component": "medpy"
+    },
+    {
+      "python": "312",
+      "component": "medpy-0.5.2.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "mpl_toolkits"
+    },
+    {
+      "python": "312",
+      "component": "mpmath"
+    },
+    {
+      "python": "312",
+      "component": "mpmath-1.3.0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "narwhals"
+    },
+    {
+      "python": "312",
+      "component": "narwhals-2.27.1.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "networkx"
+    },
+    {
+      "python": "312",
+      "component": "networkx-3.7.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "nibabel"
+    },
+    {
+      "python": "312",
+      "component": "nibabel-5.4.2.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "nnunet"
+    },
+    {
+      "python": "312",
+      "component": "nnunet-1.7.1.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "numexpr"
+    },
+    {
+      "python": "312",
+      "component": "numexpr-2.14.2.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "numpy"
+    },
+    {
+      "python": "312",
+      "component": "numpy-1.26.4.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "numpy.libs"
+    },
+    {
+      "python": "312",
+      "component": "packaging"
+    },
+    {
+      "python": "312",
+      "component": "packaging-26.3.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "pandas"
+    },
+    {
+      "python": "312",
+      "component": "pandas-3.0.6.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "pandas.libs"
+    },
+    {
+      "python": "312",
+      "component": "past"
+    },
+    {
+      "python": "312",
+      "component": "pillow-12.3.0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "pyarrow"
+    },
+    {
+      "python": "312",
+      "component": "pyarrow-26.0.0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "pyarrow.libs"
+    },
+    {
+      "python": "312",
+      "component": "pydicom"
+    },
+    {
+      "python": "312",
+      "component": "pydicom-3.0.2.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "pygments"
+    },
+    {
+      "python": "312",
+      "component": "pyparsing"
+    },
+    {
+      "python": "312",
+      "component": "pyparsing-3.3.3.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "python_dateutil-2.9.0.post0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "python_gdcm-3.2.6.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "pyyaml-6.0.3.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "requests"
+    },
+    {
+      "python": "312",
+      "component": "requests-2.34.2.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "rich"
+    },
+    {
+      "python": "312",
+      "component": "rich-15.0.0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "scikit_image-0.26.0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "scikit_learn-1.9.1.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "scipy"
+    },
+    {
+      "python": "312",
+      "component": "scipy-1.17.1.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "scipy.libs"
+    },
+    {
+      "python": "312",
+      "component": "simpleitk-2.5.6.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "six-1.17.0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "six.py"
+    },
+    {
+      "python": "312",
+      "component": "skimage"
+    },
+    {
+      "python": "312",
+      "component": "sklearn"
+    },
+    {
+      "python": "312",
+      "component": "sympy"
+    },
+    {
+      "python": "312",
+      "component": "sympy-1.14.0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "threadpoolctl-3.7.0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "threadpoolctl.py"
+    },
+    {
+      "python": "312",
+      "component": "tifffile"
+    },
+    {
+      "python": "312",
+      "component": "tifffile-2026.3.3.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "torch"
+    },
+    {
+      "python": "312",
+      "component": "torch-2.8.0+cu128.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "torchgen"
+    },
+    {
+      "python": "312",
+      "component": "torchvision"
+    },
+    {
+      "python": "312",
+      "component": "torchvision-0.23.0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "tqdm"
+    },
+    {
+      "python": "312",
+      "component": "tqdm-4.70.1.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "traceback2"
+    },
+    {
+      "python": "312",
+      "component": "traceback2-1.4.0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "typing_extensions-4.16.0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "typing_extensions.py"
+    },
+    {
+      "python": "312",
+      "component": "unittest2"
+    },
+    {
+      "python": "312",
+      "component": "unittest2-1.1.0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "urllib3"
+    },
+    {
+      "python": "312",
+      "component": "urllib3-2.8.0.dist-info"
+    },
+    {
+      "python": "312",
+      "component": "yaml"
+    }
+  ]
+}

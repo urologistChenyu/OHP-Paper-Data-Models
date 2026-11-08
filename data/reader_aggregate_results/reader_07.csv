@@ -1,0 +1,21 @@
+﻿group,cases,reader_case_decisions,transition,count
+All cases,107,1712,Wrong to correct,303
+All cases,107,1712,Correct to wrong,45
+All cases,107,1712,Correct to correct,952
+All cases,107,1712,Wrong to wrong,412
+OHP-positive,31,496,Wrong to correct,98
+OHP-positive,31,496,Correct to wrong,18
+OHP-positive,31,496,Correct to correct,264
+OHP-positive,31,496,Wrong to wrong,116
+OHP-negative,76,1216,Wrong to correct,205
+OHP-negative,76,1216,Correct to wrong,27
+OHP-negative,76,1216,Correct to correct,688
+OHP-negative,76,1216,Wrong to wrong,296
+AI correct,74,1184,Wrong to correct,199
+AI correct,74,1184,Correct to wrong,37
+AI correct,74,1184,Correct to correct,671
+AI correct,74,1184,Wrong to wrong,277
+AI incorrect,33,528,Wrong to correct,104
+AI incorrect,33,528,Correct to wrong,8
+AI incorrect,33,528,Correct to correct,281
+AI incorrect,33,528,Wrong to wrong,135

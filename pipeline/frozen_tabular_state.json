@@ -1,0 +1,54 @@
+{
+  "schema": "ohp_standalone_tabular_v1",
+  "train_n": 296,
+  "branches": {
+    "clinical": {
+      "features": [
+        "Age",
+        "Tumorsize",
+        "NEUT",
+        "LYMPH"
+      ],
+      "mean": {
+        "Age": 61.097972972972975,
+        "Tumorsize": 4.471283783783784,
+        "NEUT": 4.116216216216216,
+        "LYMPH": 1.588918918918919
+      },
+      "std": {
+        "Age": 12.078298059446388,
+        "Tumorsize": 2.2334027486859234,
+        "NEUT": 1.75340536676797,
+        "LYMPH": 0.5603535628846054
+      },
+      "model_sha256": "4ae06eacf0be27e97aab3dcb5277a89872deb813559f1992c571fc2ecccbfdd3"
+    },
+    "traditional": {
+      "features": [
+        "intra_exponential_glrlm_ShortRunLowGrayLevelEmphasis",
+        "intra_original_shape_Sphericity",
+        "intra_squareroot_ngtdm_Strength",
+        "intra_wavelet_LLL_firstorder_TotalEnergy",
+        "intra_wavelet_LLL_ngtdm_Coarseness",
+        "intra_wavelet_LLL_ngtdm_Strength"
+      ],
+      "mean": {
+        "intra_exponential_glrlm_ShortRunLowGrayLevelEmphasis": 0.06002952200691528,
+        "intra_original_shape_Sphericity": 0.8811866205971249,
+        "intra_squareroot_ngtdm_Strength": 305.7228535238419,
+        "intra_wavelet_LLL_firstorder_TotalEnergy": 2833137351635.553,
+        "intra_wavelet_LLL_ngtdm_Coarseness": 0.003819113978504063,
+        "intra_wavelet_LLL_ngtdm_Strength": 1486.9662957662927
+      },
+      "std": {
+        "intra_exponential_glrlm_ShortRunLowGrayLevelEmphasis": 0.03321489114104159,
+        "intra_original_shape_Sphericity": 0.025584233201748453,
+        "intra_squareroot_ngtdm_Strength": 219.97028646878874,
+        "intra_wavelet_LLL_firstorder_TotalEnergy": 3774205403197.5273,
+        "intra_wavelet_LLL_ngtdm_Coarseness": 0.0019331445224130134,
+        "intra_wavelet_LLL_ngtdm_Strength": 742.9979134988216
+      },
+      "model_sha256": "6c2b0e25d4e8060098edc0b302f3e2fcb6090b1451b6979f193b778a5c3baf63"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "release": "OHP_20261108",
+  "model": "five-branch arithmetic mean",
+  "threshold": 0.3530539465287861,
+  "positive_rule": "probability >= threshold",
+  "clinical_fields": [
+    "Age",
+    "Tumorsize",
+    "NEUT",
+    "LYMPH"
+  ],
+  "clinical_units": {
+    "Age": "years",
+    "Tumorsize": "cm, CT maximum diameter",
+    "NEUT": "10^9/L",
+    "LYMPH": "10^9/L"
+  },
+  "branches": [
+    "clinical",
+    "traditional_radiomics",
+    "habitat_radiomics",
+    "cnn_2d",
+    "cnn_2_5d"
+  ],
+  "fusion_weights": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "cnn_architecture": "ResNet34",
+  "cnn_checkpoints": {
+    "2D": 36,
+    "2.5D": 16
+  },
+  "mask_routes": [
+    "automatic KiTS21 fold 0",
+    "supplied binary reference/manual mask"
+  ],
+  "image_window_HU": [
+    -125,
+    175
+  ],
+  "cnn_size": [
+    224,
+    224
+  ],
+  "habitat_clusters": 3,
+  "development_n": 296,
+  "internal_validation_n": 126,
+  "external_n": 156,
+  "prospective_n": 93,
+  "reader_n": 16,
+  "reader_cases": 107,
+  "reader_specialties": {
+    "Urology": 9,
+    "Radiology": 7
+  },
+  "reader_configured_washout_days": 15,
+  "reader_observed_interval_days": [
+    14.742,
+    19.814
+  ],
+  "reader_auc_source": "0–100 human probability; binary judgments retained for classification metrics",
+  "software_runtime_dependency": "public Python libraries; no proprietary platform installation or licence required",
+  "source_license": "existing OHP MIT licence; third-party assets retain their own licences",
+  "study_images": "Pseudonymised reader demonstration images are included in the reader module. Anonymous labels and model predictions for all 671 cases are included in data/predictions. Original CT and clinical records require institutional approval."
+}

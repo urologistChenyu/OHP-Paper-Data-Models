@@ -1,0 +1,27 @@
+{
+  "class": "<class 'sklearn.cluster._kmeans.KMeans'>",
+  "n_features": 1,
+  "centers": [
+    [
+      0.8807061910629272
+    ],
+    [
+      0.6475605964660645
+    ],
+    [
+      0.45668476819992065
+    ]
+  ],
+  "params": {
+    "algorithm": "auto",
+    "copy_x": "True",
+    "init": "k-means++",
+    "max_iter": "300",
+    "n_clusters": "3",
+    "n_init": "10",
+    "random_state": "0",
+    "tol": "0.0001",
+    "verbose": "0"
+  },
+  "sha256": "96e3ad894b8b0d778243e811aee3e6730ef64dc80ad108c85900addde57d7a10"
+}

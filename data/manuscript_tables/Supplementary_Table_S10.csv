@@ -1,0 +1,15 @@
+﻿Cohort,Comparator,ΔAUC (95% CI),DeLong P,Holm P
+External,Clinical,0.0190 (-0.0443–0.0823),0.5571,1.0000
+External,Conventional,-0.0034 (-0.0366–0.0297),0.8387,1.0000
+External,Habitat,0.0130 (-0.0281–0.0541),0.5341,1.0000
+External,2D,0.0457 (-0.0047–0.0961),0.0756,0.3022
+External,2.5D,0.0578 (0.0156–0.1000),0.0073,0.0366
+Prospective,Clinical,0.0281 (-0.0310–0.0871),0.3513,0.3513
+Prospective,Conventional,0.0419 (-0.0098–0.0936),0.1124,0.2789
+Prospective,Habitat,0.0823 (0.0159–0.1486),0.0151,0.0757
+Prospective,2D,0.0507 (-0.0041–0.1056),0.0697,0.2789
+Prospective,2.5D,0.0502 (-0.0059–0.1063),0.0792,0.2789
+External,"CT diameter
+AUC 0.7998",+0.0131 (-0.0389–0.0652),0.6207,—
+Prospective,"CT diameter
+AUC 0.8239",+0.0313 (-0.0301–0.0927),0.3181,—

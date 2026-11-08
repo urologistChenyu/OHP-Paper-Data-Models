@@ -1,0 +1,136 @@
+{
+  "protocol": "OHP_mean5_ACC_20261104",
+  "model_files": [
+    {
+      "file": "models/clinical.pkl",
+      "sha256": "4ae06eacf0be27e97aab3dcb5277a89872deb813559f1992c571fc2ecccbfdd3",
+      "bytes": 1231
+    },
+    {
+      "file": "models/traditional.pkl",
+      "sha256": "6c2b0e25d4e8060098edc0b302f3e2fcb6090b1451b6979f193b778a5c3baf63",
+      "bytes": 281480
+    },
+    {
+      "file": "models/habitat.pkl",
+      "sha256": "5fcd487f061c4aa1b041d56fa7420bab99411e63b86689b333c478ee3d5be8cc",
+      "bytes": 16969
+    },
+    {
+      "file": "models/cnn2d_ep36.pth",
+      "sha256": "30349df17d0d1fd0051433039cac42c051a3a7ee575a7e89aa8856d05561de1b",
+      "bytes": 85287083
+    },
+    {
+      "file": "models/cnn25d_ep16.pth",
+      "sha256": "42a8df2a5b715e3534a2129497632b53120fd82ef809d05eae936c8f259dd84c",
+      "bytes": 85287083
+    },
+    {
+      "file": "configs/radiomics.yaml",
+      "sha256": "0f332313ba72640d88991bbd7b942f3409ca2dade16b44dbb21358de37d85854",
+      "bytes": 3611
+    },
+    {
+      "file": "configs/cluster_centers.json",
+      "sha256": "e701660e1d284477a8d645178007ba45bdf12283c6a0d34c574e9ea8d0f2c4a1",
+      "bytes": 538
+    },
+    {
+      "file": "pipeline/frozen_tabular_state.json",
+      "sha256": "5222b57d4ddcdf5ee107a183f6ae237e1674c28670373a67011cae1d81ee5411",
+      "bytes": 1999
+    },
+    {
+      "file": "pipeline/frozen_habitat_knn.joblib",
+      "sha256": "5c7dfe18ce4dbfd8591e407f4163d741adde3d991ccadeac2338be0e13b9e769",
+      "bytes": 11804468
+    },
+    {
+      "file": "pipeline/habitat_feature_names.json",
+      "sha256": "8540ebbf3fde6ce42a36fc13da874385f7fc50bdc6648c2c279154c566c17314",
+      "bytes": 234678
+    },
+    {
+      "file": "models/kits21_fold0/plans.pkl",
+      "sha256": "d15d46664240f0a9056ef1320e00df46fbd866ea94323a98e47b3e9eff1f4e39",
+      "bytes": 143080
+    },
+    {
+      "file": "models/kits21_fold0/fold_0/model_final_checkpoint.model",
+      "sha256": "d64a21c10973c459870297e57e39811304c689e3b9bddd5bbaeb7a8384d64cf7",
+      "bytes": 249826698
+    },
+    {
+      "file": "models/kits21_fold0/fold_0/model_final_checkpoint.model.pkl",
+      "sha256": "9f6f0d03dcbe0a67a2e5894f2f10ea6b0f58dd5de5348b3c6a7b6c0e1bede0b2",
+      "bytes": 143564
+    },
+    {
+      "file": "models/kits21_fold0/provenance.json",
+      "sha256": "5328de30db7836f7656168432cc9c692ce2352e695ecd9a4f019b3293432d803",
+      "bytes": 644
+    },
+    {
+      "file": "assets/ui/ohp_icon.ico",
+      "sha256": "ce72831318d1cd2c88acc39831ee4de47b2b66bf366b84a5f0c4e8296d9c40ad",
+      "bytes": 24639
+    },
+    {
+      "file": "segmentation/kidneyautoseg/__init__.py",
+      "sha256": "4d57ed3a0a79faefb93efd0a6a7f80e3e9b0f9e29b0e026335abbb5182cd5439",
+      "bytes": 105
+    },
+    {
+      "file": "segmentation/kidneyautoseg/io.py",
+      "sha256": "bb075f452e964bb84b2ce908a309a8f2010839ae93f7b1110741b032884a83b3",
+      "bytes": 4749
+    },
+    {
+      "file": "segmentation/kidneyautoseg/kits_inference.py",
+      "sha256": "603fc2673b77da79fe4636a213f3af2ccdf63ce4dd424de9978e5733bb006e17",
+      "bytes": 4765
+    },
+    {
+      "file": "pipeline/standalone_auto_mask.py",
+      "sha256": "438c8000a2e7a09a099292f12003d232512557b68974e07a91c29d2818081d1d",
+      "bytes": 4859
+    },
+    {
+      "file": "pipeline/standalone_slices.py",
+      "sha256": "8564848f98363452824438b2086a5b8bb036dae21f9c6a03e7bc12d69955838b",
+      "bytes": 2541
+    },
+    {
+      "file": "pipeline/standalone_radiomics.py",
+      "sha256": "6899d8b8196648228c68ffbbd30d308446e79a0cb1d233d94d111e9fa0556b01",
+      "bytes": 4495
+    },
+    {
+      "file": "pipeline/freeze_and_predict.py",
+      "sha256": "6abdad71942f7ca6b1150edea74411d9326b1b4343501611aebccfa3d7fb687a",
+      "bytes": 4016
+    },
+    {
+      "file": "pipeline/freeze_and_predict_habitat.py",
+      "sha256": "eb6e2dc0b69be72e04877206ed9a2dfcaabe582a34683b2268bb022518c7fad0",
+      "bytes": 3620
+    },
+    {
+      "file": "pipeline/standalone_image_branches.py",
+      "sha256": "7a784f4d8baf057469d1080f7045dead9327f53264348b9377362d119a492e2a",
+      "bytes": 3089
+    },
+    {
+      "file": "pipeline/fuse_and_evaluate.py",
+      "sha256": "91e5067ddef159c5b019ec1637fdf7ea380580f8645a8762abff27df476ac149",
+      "bytes": 3657
+    },
+    {
+      "file": "package_paths.py",
+      "sha256": "4d9e7b0e9a0164d5045e874237e63a09fdad58303a1f7d1d5866bd26632f8763",
+      "bytes": 1971
+    }
+  ],
+  "note": "Final trained model assets and fixed inference source."
+}

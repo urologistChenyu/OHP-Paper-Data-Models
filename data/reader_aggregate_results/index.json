@@ -1,0 +1,13 @@
+{
+  "reader_01.csv": "specialty_and_seniority.csv",
+  "reader_02.csv": "session_intervals.csv",
+  "reader_03.csv": "confidence_and_time_by_correctness.csv",
+  "reader_04.csv": "interreader_agreement.csv",
+  "reader_05.csv": "AI_alone_and_assisted_readers.csv",
+  "reader_06.csv": "size_gain_interactions.csv",
+  "reader_07.csv": "paired_error_transitions.csv",
+  "reader_08.csv": "overall_paired_metrics.csv",
+  "reader_10.csv": "between_group_gain_tests.csv",
+  "reader_11.csv": "tumour_size_subgroups.csv",
+  "reader_12.csv": "individual_reader_metrics.csv"
+}

@@ -1,0 +1,19 @@
+﻿Domain,Feature,Effect,BH-FDR
+Hallmark GSEA,Allograft rejection,NES 2.701,3.67e-28
+Hallmark GSEA,E2F targets,NES 2.594,4.99e-24
+Hallmark GSEA,G2M checkpoint,NES 2.469,6.48e-20
+Hallmark GSEA,IFN-γ response,NES 2.366,1.07e-16
+Hallmark GSEA,mTORC1 signalling,NES 2.224,5.97e-13
+Hallmark GSEA,Complement,NES 2.162,1.6e-12
+Hallmark GSEA,Epithelial–mesenchymal transition,NES 2.105,2.1e-10
+Hallmark GSEA,IL6–JAK–STAT3 signalling,NES 2.334,3.09e-10
+MCP-counter,Endothelial cells,Δmean -0.505,3.18e-05
+MCP-counter,CD8 T cells,Δmean +0.784,0.000957
+MCP-counter,Monocytic lineage,Δmean +0.260,0.00428
+MCP-counter,T cells,Δmean +0.344,0.00509
+MCP-counter,B lineage,Δmean +0.456,0.0371
+Checkpoint,LAG3,Δmean +0.944,9.04e-05
+Checkpoint,PDCD1,Δmean +0.862,0.000183
+Checkpoint,TIGIT,Δmean +0.719,0.000183
+Checkpoint,CTLA4,Δmean +0.620,0.000695
+Checkpoint,IDO1,Δmean +0.369,0.0332

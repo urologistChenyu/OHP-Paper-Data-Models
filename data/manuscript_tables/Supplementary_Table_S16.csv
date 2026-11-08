@@ -1,0 +1,6 @@
+﻿Case context,Decisions,Errors before,Errors after,Corrected,New errors,Net gain
+All cases,1712,715,457,303,45,258
+OHP-positive,496,214,134,98,18,80
+OHP-negative,1216,501,323,205,27,178
+AI correct,1184,476,314,199,37,162
+AI incorrect,528,239,143,104,8,96

@@ -1,0 +1,58 @@
+{
+  "risk_model": "five-branch mean",
+  "weights": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "threshold": 0.3530539465287861,
+  "files": [
+    {
+      "file": "models/clinical.pkl",
+      "bytes": 1231,
+      "sha256": "4ae06eacf0be27e97aab3dcb5277a89872deb813559f1992c571fc2ecccbfdd3"
+    },
+    {
+      "file": "models/cnn25d_ep16.pth",
+      "bytes": 85287083,
+      "sha256": "42a8df2a5b715e3534a2129497632b53120fd82ef809d05eae936c8f259dd84c"
+    },
+    {
+      "file": "models/cnn2d_ep36.pth",
+      "bytes": 85287083,
+      "sha256": "30349df17d0d1fd0051433039cac42c051a3a7ee575a7e89aa8856d05561de1b"
+    },
+    {
+      "file": "models/habitat.pkl",
+      "bytes": 16969,
+      "sha256": "5fcd487f061c4aa1b041d56fa7420bab99411e63b86689b333c478ee3d5be8cc"
+    },
+    {
+      "file": "models/kits21_fold0/fold_0/model_final_checkpoint.model",
+      "bytes": 249826698,
+      "sha256": "d64a21c10973c459870297e57e39811304c689e3b9bddd5bbaeb7a8384d64cf7"
+    },
+    {
+      "file": "models/kits21_fold0/fold_0/model_final_checkpoint.model.pkl",
+      "bytes": 143564,
+      "sha256": "9f6f0d03dcbe0a67a2e5894f2f10ea6b0f58dd5de5348b3c6a7b6c0e1bede0b2"
+    },
+    {
+      "file": "models/kits21_fold0/plans.pkl",
+      "bytes": 143080,
+      "sha256": "d15d46664240f0a9056ef1320e00df46fbd866ea94323a98e47b3e9eff1f4e39"
+    },
+    {
+      "file": "models/kits21_fold0/provenance.json",
+      "bytes": 644,
+      "sha256": "5328de30db7836f7656168432cc9c692ce2352e695ecd9a4f019b3293432d803"
+    },
+    {
+      "file": "models/traditional.pkl",
+      "bytes": 281480,
+      "sha256": "6c2b0e25d4e8060098edc0b302f3e2fcb6090b1451b6979f193b778a5c3baf63"
+    }
+  ]
+}

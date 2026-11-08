@@ -1,0 +1,16 @@
+{
+  "source": "https://zenodo.org/records/5126443/files/Task135_KiTS2021.zip?download=1",
+  "task": "KiTS21",
+  "architecture": "nnUNetTrainerV2__nnUNetPlansv2.1",
+  "configuration": "3d_fullres",
+  "folds": [
+    0
+  ],
+  "local_data_training_completed": false,
+  "clinical_release_approved": false,
+  "files": {
+    "plans.pkl": "d15d46664240f0a9056ef1320e00df46fbd866ea94323a98e47b3e9eff1f4e39",
+    "fold_0/model_final_checkpoint.model": "d64a21c10973c459870297e57e39811304c689e3b9bddd5bbaeb7a8384d64cf7",
+    "fold_0/model_final_checkpoint.model.pkl": "9f6f0d03dcbe0a67a2e5894f2f10ea6b0f58dd5de5348b3c6a7b6c0e1bede0b2"
+  }
+}

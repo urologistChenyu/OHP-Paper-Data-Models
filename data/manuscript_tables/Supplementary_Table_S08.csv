@@ -1,0 +1,13 @@
+﻿Cohort,Model,AUC,Average precision,Brier
+External,Clinical,0.794,0.624,0.147
+External,Conventional radiomics,0.816,0.621,0.155
+External,Habitat radiomics,0.800,0.652,0.163
+External,2D CNN,0.767,0.559,0.160
+External,2.5D CNN,0.755,0.603,0.164
+External,Five-branch mean,0.813,0.671,0.144
+Prospective,Clinical,0.827,0.764,0.162
+Prospective,Conventional radiomics,0.813,0.777,0.164
+Prospective,Habitat radiomics,0.773,0.737,0.188
+Prospective,2D CNN,0.804,0.721,0.187
+Prospective,2.5D CNN,0.805,0.705,0.176
+Prospective,Five-branch mean,0.855,0.805,0.158

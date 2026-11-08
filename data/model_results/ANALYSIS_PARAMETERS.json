@@ -1,0 +1,22 @@
+{
+  "input_cases": 671,
+  "cohort_sizes": {
+    "development_oof": 296,
+    "internal_validation": 126,
+    "external": 156,
+    "prospective": 93
+  },
+  "classification_threshold": 0.3530539465287861,
+  "fusion_weights": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "output": "Numerical results and curve coordinates; no plots generated.",
+  "paired_auc_adjustment": "Holm within the five final-model versus single-branch comparisons in each evaluation cohort.",
+  "calibration": "Diagnostic regression estimates only; input probabilities are not changed.",
+  "contribution_units": "probability; multiply by 100 for percentage points",
+  "contribution_background": "development OOF branch means"
+}

@@ -1,0 +1,8 @@
+﻿Analysis,Population or count,Criterion or estimate
+RNA,366: 298 OHP+ / 68 OHP−,Adjusted: 364 (296+ / 68−)
+Unadjusted DE,1117: 972 higher / 145 lower,BH-FDR<0.05; |log2FC|≥1
+Adjusted DE,125: 47 higher / 78 lower,Stage+grade+OHP; same criterion
+Nested OHP test,77 genes,BH-FDR<0.05; no extra fold-change cutoff
+ClearCode34,250 patients,Published subtype assignments
+Unadjusted subtype,OR 2.554 (1.301–5.183),Fisher P=0.00353
+Adjusted subtype,OR 5.090 (0.916–28.280),Stage/grade-adjusted P=0.0629

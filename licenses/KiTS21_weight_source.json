@@ -1,0 +1,14 @@
+{
+  "title": "pretrained nnU-Net weights for KiTS21",
+  "creators": [
+    {
+      "name": "Isensee, Fabian",
+      "affiliation": "HIP Applied Computer Vision Lab, Division of Medical Image Computing, German Cancer Research Center"
+    }
+  ],
+  "doi": "10.5281/zenodo.5126443",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "url": "https://zenodo.org/records/5126443"
+}

@@ -1,0 +1,15 @@
+numpy==1.24.2
+pandas==1.3.5
+scipy==1.13.1
+scikit-learn==1.6.1
+joblib==1.4.2
+SimpleITK==2.4.1
+scikit-image==0.24.0
+PyWavelets==1.6.0
+PyYAML==6.0.2
+pykwalify==1.8.0
+six==1.17.0
+threadpoolctl==3.6.0
+trimesh==4.12.2
+# Exact Windows CPython 3.9 build used by the archived extraction pipeline.
+pyradiomics @ https://files.pythonhosted.org/packages/0c/42/9bcefd036d0170295df6a545433548917c71687e029bae9d87e8a720432d/pyradiomics-3.1.0-cp39-cp39-win_amd64.whl

@@ -1,0 +1,12 @@
+﻿Branch,Input,Model and settings
+Clinical,"Age, CT diameter, NEUT, LYMPH",Logistic regression; L2; C=1
+Conventional radiomics,Pad1; 1561 → 6 features,MLP 128/64/32; SGD; lr=0.001; alpha=0.0001; max_iter=300
+Habitat,Pad1; K=3; 3×1834 → 14 features,Extra Trees; 10 trees; depth=3; max_features=sqrt
+2D,Maximum axial ROI; 224×224,ResNet34; SGD; lr 0.01; batch 32; epochs=50; checkpoint 36
+2.5D,"en5 [centre,+1,−1]; 224×224",ResNet34; same training configuration; checkpoint 16
+Candidate regions,Tumour; Pad1/3/5; Peri1/3/5,Final conventional input: Pad1
+Candidate habitats,K=2/3/4; tumour and padded regions,Final K=3; centres frozen
+Candidate slices,ROI-only; enlarged context; axial/coronal/sagittal alternatives,"2D maximum axial ROI; 2.5D centre,+1,−1; en5"
+Radiomic extraction,3 mm isotropic; normalise scale 1000; bin width 5,Nearest neighbour; configured original/filtered image types
+Clustering scope,677 unlabelled CT volumes; 671 final evaluation patients plus six additional volumes,K=3 intensity-based centres fitted without pathology labels and then fixed
+Checkpoint selection,Validation accuracy (component checkpoint selection),OOF fold-level selection; final selection in internal validation

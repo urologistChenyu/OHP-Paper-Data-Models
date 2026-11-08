@@ -1,0 +1,14 @@
+﻿Stage,Input and N,Result
+Dual input,DICOM + four clinical variables; automatic or reviewed mask,Five fixed branches; mean aggregation; p≥0.353054
+Preprocessing,Input preparation 1 mm; radiomics 3 mm,HU −125 to 175; fixed transformations
+Clinical recomputation,375: internal 126 + external 156 + prospective 93,Stored clinical probabilities reproduced
+Prepared-CT inference,375 attempted; 374 completed,Internal 125/126; external 156/156; prospective 93/93
+Saved-score aggregation,The same 374 completed patients,Current five-branch means reproduced from saved branch outputs
+AUC in completed patients,Internal 125; external 156; prospective 93,0.813; 0.813; 0.855
+Prepared-CT spatial check,One internal image–mask pair,0.5-mm z-origin mismatch; inference withheld
+DICOM plus reference mask,Prospective 93 attempted; 92 completed,One source-series geometry failure
+Released-interface execution,Three reviewed-mask cases and one automatic case,4/4 completed file-to-risk processing; identical downstream model
+Automatic-mask coverage,93 patients,90 nonempty masks (96.8%); three review prompts
+Same-patient prediction,90 paired patients; 35 OHP-positive,Automatic/reference AUC 0.8468/0.8473
+Automatic classification,TP/FN/FP/TN 25/10/13/42,ACC/Se/Sp 74.4/71.4/76.4%
+Reference classification,TP/FN/FP/TN 26/9/15/40,ACC/Se/Sp 73.3/74.3/72.7%
